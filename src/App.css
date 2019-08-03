@@ -1,13 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin:400,700|Roboto:400,700|Roboto+Condensed:400,700&display=swap");
 * {
+  /* font-family: "Roboto Condensed", Sans-Serif; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 :root {
-  --primaryColor: #af9a7d;
+  --primaryColor: rgb(106, 104, 249);
   --mainWhite: #fff;
-  --offWhite: #f7f7f7;
-  --mainBlack: #222;
+  --offWhite: #e4e4f5;
+  --mainBlack: rgb(13, 5, 102);
   --mainGrey: #ececec;
   --darkGrey: #cfcfcf;
   --mainTransition: all 0.3s linear;
@@ -20,7 +22,7 @@ body {
   padding-top: 66px;
   color: var(--mainBlack);
   background: var(--mainWhite);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Cabin", Sans-Serif;
   line-height: 1.4;
 }
 h1 {
@@ -112,8 +114,8 @@ h6 {
   color: var(--primaryColor);
 }
 .nav-links {
-  /* height: 0;
-  overflow: hidden; */
+  height: 0;
+  overflow: hidden;
   transition: var(--mainTransition);
   list-style-type: none;
 }
@@ -125,7 +127,7 @@ h6 {
   transition: var(--mainTransition);
   text-align: center;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
@@ -172,7 +174,7 @@ h6 {
 /* Banner */
 .banner {
   display: inline-block;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(13, 5, 102, 0.6);
   color: var(--mainWhite);
   padding: 2rem 1rem;
   text-align: center;
