@@ -11,7 +11,7 @@
   --offWhite: #e4e4f5;
   --mainBlack: rgb(13, 5, 102);
   --mainGrey: #ececec;
-  --darkGrey: #cfcfcf;
+  --darkGrey: rgb(193, 191, 212);
   --mainTransition: all 0.3s linear;
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -253,7 +253,8 @@ h6 {
   margin-bottom: 1.5rem;
 }
 .services h6 {
-  letter-spacing: var(--mainSpacing);
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .services p {
   width: 80%;
